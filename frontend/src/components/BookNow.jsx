@@ -73,7 +73,7 @@ function BookNow({ restaurant }) {
           &nbsp;&nbsp;
           <span className="type">{restaurant.type}</span>
         </div>
-        <div className="addressbox">
+        <div className="adresbox">
           <p className="address">{restaurant.address}</p>
         </div>
         <div>

@@ -36,8 +36,9 @@
   text-align: center;
   margin-top: 32px;
 }
-.addressbox {
-  display: flex;
+
+.adresbox {
+  position: relative;
   justify-content: center;
   color: blue;
 }
