@@ -1,0 +1,56 @@
+.wall {
+  color: #2a2a2a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingscard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  width: 1250px;
+  margin-top: 0px;
+  box-shadow: 4px 4px 10px 2px rgb(192, 192, 192);
+}
+
+.bookingscard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  width: 130px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  font-size: 24px;
+  background-color: rgb(208, 208, 208);
+  color: #333;
+  font-family: "CalSans-Regular", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+  display: inline-block;
+  border-style: solid;
+  margin-left: 1cm;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.titledata {
+  font-family: "Courier New";
+  font-size: 25px;
+}
+.value {
+  font-family: Courier, monospace;
+  font-size: 25px;
+}

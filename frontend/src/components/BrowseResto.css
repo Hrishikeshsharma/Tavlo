@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Sacramento-Regular;
+  src: url(frontend/src/fonts/Sacramento-Regular.ttf);
+}
+.backbody {
+  height: 100vh;
+  background: linear-gradient(to right, rgb(207, 207, 207), rgb(120, 113, 88));
+}
+.browlocation {
+  height: 0.7cm;
+  width: 180px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  margin-top: 0.5cm;
+  margin-right: 0.5cm;
+  margin-left: 1cm;
+  border-style: hidden;
+  text-indent: 0.4cm;
+}
+.browrestaurant {
+  height: 0.7cm;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  margin-top: 0.5cm;
+  border-style: hidden;
+  text-indent: 0.4cm;
+}
+
+.horizontal-scroll {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 16px;
+  scroll-behavior: smooth;
+  margin-left: 1cm;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.searchhead {
+  margin-left: 1cm;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0.5cm;
+}
+.searchbox {
+  background-color: rgb(215, 215, 215);
+  padding-bottom: 0.5cm;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0.3, 0.8);
+  border-radius: 20px;
+  margin-left: 1cm;
+  display: flex;
+  width: 700px;
+  vertical-align: middle;
+  background: linear-gradient(to right, rgb(150, 150, 150), rgb(207, 207, 207));
+}
+.welcome {
+  font-size: 3em;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-left: 1cm;
+}
+.browbody {
+  display: flex;
+  align-items: center;
+}

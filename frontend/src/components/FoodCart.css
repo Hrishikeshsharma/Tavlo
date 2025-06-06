@@ -1,0 +1,28 @@
+.foodcart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px; /* Set a fixed or max-width */
+  height: 100vh; /* Full viewport height */
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  z-index: 1000;
+  overflow-y: auto; /* Enable vertical scroll */
+  display: flex;
+  flex-direction: column;
+}
+
+.orderhead {
+  font-size: 3em;
+  font-weight: 500;
+}
+.items {
+  font-family: "CalSans-Regular";
+  font-size: 20px;
+}
+.total {
+  font-family: "CalSans-Regular";
+  color: brown;
+  font-size: 30px;
+}

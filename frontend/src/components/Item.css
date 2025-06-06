@@ -1,0 +1,52 @@
+.perticular {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0.1cm 1cm 0.1cm 1cm;
+  margin-right: 12cm;
+  margin-top: 0.5cm;
+  margin-left: 1cm;
+  background-color: rgb(234, 234, 234);
+  border-radius: 20px;
+}
+
+.item {
+  font-family: "CalSans-Regular";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-size: 25px;
+  text-align: right;
+}
+
+.selector {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  justify-content: flex-end;
+}
+
+.control1,
+.control2 {
+  width: 1.5cm;
+  height: 1cm;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.quantity {
+  background-color: rgb(167, 38, 38);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 1cm;
+  height: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

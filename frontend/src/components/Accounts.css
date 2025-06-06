@@ -1,0 +1,56 @@
+.accicon {
+  position: absolute;
+  left: 50px;
+  width: 170px;
+  margin-left: 10px;
+}
+.email {
+  margin-top: 15px;
+}
+.settingbox {
+  margin-top: 30px;
+  position: relative;
+  top: 200px;
+}
+.setting {
+  width: 30px;
+}
+.helpbox {
+  margin-top: 10px;
+  position: relative;
+  top: 200px;
+}
+.help {
+  width: 30px;
+}
+.logoutbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.logout {
+  width: 170px;
+  border-style: solid;
+  border-width: 0.5px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: rgb(158, 158, 158);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "CalSans-Regular";
+  position: relative;
+  top: 180px;
+}
+.logout:hover {
+  background-color: rgb(63, 63, 63);
+  color: rgb(208, 83, 25);
+  position: relative;
+}
+.mailbox {
+  background-color: rgb(255, 226, 208);
+  border-radius: 20px;
+  position: relative;
+  top: 180px;
+}

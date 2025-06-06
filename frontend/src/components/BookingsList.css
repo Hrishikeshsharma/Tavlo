@@ -1,0 +1,23 @@
+.body {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h2box {
+  background-color: rgb(222, 170, 108);
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.h2para {
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  font-family: "CalSans-Regular";
+}

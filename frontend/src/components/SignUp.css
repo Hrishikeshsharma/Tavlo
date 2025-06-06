@@ -1,0 +1,95 @@
+.inputfields {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  border: none;
+  font-size: 1em;
+  text-align: left;
+  display: block;
+  box-sizing: border-box;
+}
+
+.label {
+  font-family: "CalSans-Regular", sans-serif;
+  color: rgb(45, 45, 45);
+  margin-left: 4px;
+  display: block;
+  text-align: left;
+}
+
+.button {
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(85, 85, 85);
+  font-family: "CalSans-Regular", sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.button:hover:disabled {
+  background-color: rgb(71, 70, 70);
+  cursor: not-allowed;
+  color: rgb(201, 85, 1);
+}
+
+.button:hover:enabled {
+  color: rgb(201, 85, 1);
+  background-color: rgb(71, 70, 70);
+}
+
+.heading {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 2.8em;
+  color: rgb(52, 5, 96);
+  display: inline;
+  position: relative;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+.form {
+  background-color: rgb(172, 172, 172);
+  padding: 30px 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.backgroundsignlog {
+  background: linear-gradient(to right, rgb(87, 26, 5), rgb(151, 150, 149));
+  padding: 40px 0 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+.tavlotext {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tavlo {
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+}
+.already {
+  text-align: left;
+}

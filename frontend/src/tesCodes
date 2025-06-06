@@ -1,0 +1,79 @@
+import React, { useState } from "react";
+import Item from "./Item";
+import { useEffect } from "react";
+import axios from "axios";
+import FoodCart from "./FoodCart";
+import "./FoodCart.css";
+
+function Menu() {
+  const [menu, setMenu] = useState({});
+  const [quantity, setQuantity] = useState({});
+  useEffect(() => {
+    const fetchItem = async (e) => {
+      await axios
+        .get("http://localhost:8080/menu")
+        .then((response) => {
+          setMenu(response.data[0]);
+          console.log(response.data);
+        })
+        .catch((error) => console.error("Error fetching menu", error));
+    };
+    fetchItem();
+  }, []);
+
+  const handleQuantityChange = (itemName, qty) => {
+    setQuantity((prev) => ({ ...prev, [itemName]: qty }));
+  };
+
+  const allItems = [
+    ...(menu.soups || []),
+    ...(menu.starter?.indian || []),
+    ...(menu.starter?.chinese || []),
+    ...(menu.main_course?.north_indian || []),
+    ...(menu.main_course?.south_indian || []),
+    ...(menu.tandoori || []),
+    ...(menu.rice_items || []),
+    ...(menu.meals || []),
+    ...(menu.thali || []),
+    ...(menu.salads || []),
+    ...(menu.ice_creams || []),
+    ...(menu.snacks || []),
+    ...(menu.rotis || []),
+    ...(menu.south_indian_breakfast || []),
+  ];
+
+  const selectedItems = allItems.filter((item) => quantity[item.name] > 0);
+  const hasSelectedItems = selectedItems.length > 0;
+  return (
+    <div>
+      <div>
+        <h2>Soups</h2>
+        {soups.map((item, index) => (
+          <Item
+            itemName={item.name}
+            price={item.price}
+            key={index}
+            quantity={quantity[item.name] || 0}
+            onQuantityChange={handleQuantityChange}
+          ></Item>
+        ))}
+        <h1>Starters</h1>
+        <h2>Chinese Starters</h2>
+        {starter?.chinese.map((item, index) => (
+          <Item
+            itemName={item.name}
+            price={item.price}
+            key={index}
+            quantity={quantity[item.name] || 0}
+            onQuantityChange={handleQuantityChange}
+          ></Item>
+        ))}
+      </div>
+      {hasSelectedItems && (
+        <FoodCart selectedItems={selectedItems} quantity={quantity}></FoodCart>
+      )}
+    </div>
+  );
+}
+
+export default Menu;

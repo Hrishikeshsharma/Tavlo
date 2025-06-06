@@ -1,0 +1,2102 @@
+[
+  {
+    "location": "Delhi",
+    "address": "MG Road, Delhi",
+    "type": "Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "royalspice1@example.com",
+    "password": "RsPice#47a",
+    "hotel_name": "Royal Spice",
+    "image": "aloo-paratha.jpg"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Colaba Causeway, Mumbai",
+    "type": "Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "thebombaybiryani2@example.com",
+    "password": "TBBiryani#82b",
+    "hotel_name": "The Bombay Biryani",
+    "image": "chicken-biryani.jpg"
+  },
+  {
+    "location": "Chennai",
+    "address": "T Nagar, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "chennaidelights3@example.com",
+    "password": "ChDelight#91c",
+    "hotel_name": "Anand Sagar",
+    "image": "idlivadadosa.jpg"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Park Street, Kolkata",
+    "type": "Veg & Non Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "kolkatabites4@example.com",
+    "password": "Kolkata#54d",
+    "hotel_name": "Luxe Curry",
+    "image": "chicken-tikka.jpg"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Banjara Hills, Hyderabad",
+    "type": "Non Veg",
+    "table_capacity": 20,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "hyderabadhouse5@example.com",
+    "password": "Hyder#75e",
+    "hotel_name": "Bespoke Biryani",
+    "image": "mutton-biryani.jpg"
+  },
+  {
+    "location": "Pune",
+    "address": "FC Road, Pune",
+    "type": "Veg",
+    "table_capacity": 6,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "punetadka6@example.com",
+    "password": "PTadka#68f",
+    "hotel_name": "Puneri Tadka",
+    "image": "north-thali.jpg"
+  },
+  {
+    "location": "Bangalore",
+    "address": "MG Road, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "bangalorebites7@example.com",
+    "password": "BBites#79g",
+    "hotel_name": "Rajkamal Restaurant",
+    "image": "tikka-two.jpg"
+  },
+  {
+    "location": "Lucknow",
+    "address": "Hazratganj, Lucknow",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "lucknowzaika8@example.com",
+    "password": "LZ#81h",
+    "hotel_name": "Mango Groove",
+    "image": "pork-rice.jpg"
+  },
+  {
+    "location": "Ahmedabad",
+    "address": "CG Road, Ahmedabad",
+    "type": "Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "ahmedabadeats9@example.com",
+    "password": "AEats#67i",
+    "hotel_name": "Punjabi Pind",
+    "image": "rice-curry.jpg"
+  },
+  {
+    "location": "Chandigarh",
+    "address": "Sector 17, Chandigarh",
+    "type": "Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "chandigarcheat10@example.com",
+    "password": "CChaat#74j",
+    "hotel_name": "Burger square",
+    "image": "burger-combo.jpg"
+  },
+  {
+    "location": "Jaipur",
+    "address": "MI Road, Jaipur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "jaipurjunction11@example.com",
+    "password": "Junction#83k",
+    "hotel_name": "Rajma Rhapsody",
+    "image": "chicken-chilly.jpg"
+  },
+  {
+    "location": "Goa",
+    "address": "Baga Beach, Goa",
+    "type": "Seafood",
+    "table_capacity": 20,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "goagourmet12@example.com",
+    "password": "GoaGourmet#90l",
+    "hotel_name": "Krishna MultiCuisine",
+    "image": "fishfry.jpg"
+  },
+  {
+    "location": "Indore",
+    "address": "Rajwada, Indore",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "indorespice13@example.com",
+    "password": "ISpice#56m",
+    "hotel_name": "Chai Pani Cafe",
+    "image": "noodles.jpg"
+  },
+  {
+    "location": "Nagpur",
+    "address": "Sitabuldi, Nagpur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "nagpurnosh14@example.com",
+    "password": "NNosh#61n",
+    "hotel_name": "Saffron Sanctuary",
+    "image": "egg-biryani.jpg"
+  },
+  {
+    "location": "Surat",
+    "address": "Varachha, Surat",
+    "type": "Veg",
+    "table_capacity": 7,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "suratsnacks15@example.com",
+    "password": "SSnacks#53o",
+    "hotel_name": "Desi Adda",
+    "image": "north-thali.jpg"
+  },
+  {
+    "location": "Patna",
+    "address": "Maurya Lok, Patna",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "patnaplates16@example.com",
+    "password": "PPlates#49p",
+    "hotel_name": "Apna Cafe",
+    "image": "tikka-three.jpg"
+  },
+  {
+    "location": "Vadodara",
+    "address": "Alkapuri, Vadodara",
+    "type": "Veg & Non Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "vadodaravittles17@example.com",
+    "password": "VVittles#85q",
+    "hotel_name": "Vadodara Vittles",
+    "image": "half-boiles.jpg"
+  },
+  {
+    "location": "Kanpur",
+    "address": "Civil Lines, Kanpur",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "kanpurkitchen18@example.com",
+    "password": "KKitchen#60r",
+    "hotel_name": "Rambhag Palace",
+    "image": "anna-neerulli.jpg"
+  },
+  {
+    "location": "Mysore",
+    "address": "KR Road, Mysore",
+    "type": "Pure Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mysoremeals19@example.com",
+    "password": "MMeals#72s",
+    "hotel_name": "The Royal Wodeyars",
+    "image": "butter-masala.jpg"
+  },
+  {
+    "location": "Raipur",
+    "address": "Pandri, Raipur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "raipurrasoi20@example.com",
+    "password": "RRasoi#78t",
+    "hotel_name": "Ramraj Cafe",
+    "image": "cjicken-friedrice.jpg"
+  },
+  {
+    "location": "Agra",
+    "address": "Taj Road, Agra",
+    "type": "Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "agraaroma21@example.com",
+    "password": "AAroma#77u",
+    "hotel_name": "Royal Taj",
+    "image": "camael-meat.jpg"
+  },
+  {
+    "location": "Guwahati",
+    "address": "Pan Bazaar, Guwahati",
+    "type": "Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "guwahati22@example.com",
+    "password": "GGrill#22a",
+    "hotel_name": "Cafe 'da Estate",
+    "image": "pizza.jpg"
+  },
+  {
+    "location": "Dehradun",
+    "address": "Rajpur Road, Dehradun",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "dehradun23@example.com",
+    "password": "DDiner#23b",
+    "hotel_name": "Bholenath Dhaba",
+    "image": "aloo-paratha.jpg"
+  },
+  {
+    "location": "Shimla",
+    "address": "Mall Road, Shimla",
+    "type": "Veg",
+    "table_capacity": 7,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "shimla24@example.com",
+    "password": "SSnacks#24c",
+    "hotel_name": "Shimla Snacks",
+    "image": "veg-ramen.jpg"
+  },
+  {
+    "location": "Kohima",
+    "address": "Main Market, Kohima",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "nagaland25@example.com",
+    "password": "NNosh#25d",
+    "hotel_name": "The Nagas",
+    "image": "hasimamsa.jpg"
+  },
+  {
+    "location": "Raipur",
+    "address": "Fafadih, Raipur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "raipur26@example.com",
+    "password": "RRasoi#26e",
+    "hotel_name": "Wilds & Spirits",
+    "image": "chomburger.jpg"
+  },
+  {
+    "location": "Bhubaneswar",
+    "address": "Saheed Nagar, Bhubaneswar",
+    "type": "Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "bhubaneswar27@example.com",
+    "password": "BBites#27f",
+    "hotel_name": "Hotel Samarth International",
+    "image": "veg-pizza.jpg"
+  },
+  {
+    "location": "Ranchi",
+    "address": "Hatia, Ranchi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "ranchi28@example.com",
+    "password": "RRasoi#28g",
+    "hotel_name": "Vrindavan Restaurant",
+    "image": "chicken-masala.jpg"
+  },
+  {
+    "location": "Siliguri",
+    "address": "Hill Cart Road, Siliguri",
+    "type": "Veg",
+    "table_capacity": 6,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "siliguri29@example.com",
+    "password": "SSnacks#29h",
+    "hotel_name": "Siliguri Momo's",
+    "image": "veg-momo.jpg"
+  },
+  {
+    "location": "Delhi",
+    "address": "Connaught Place, Delhi",
+    "type": "Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "delhi30@example.com",
+    "password": "DDarbar#30i",
+    "hotel_name": "Danish",
+    "image": "burritojpg.jpg"
+  },
+  {
+    "location": "Patiala",
+    "address": "Model Town, Patiala",
+    "type": "Veg & Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "patiala31@example.com",
+    "password": "PPlates#31j",
+    "hotel_name": "Patiala Plates",
+    "image": "coffee-icecream.jpg"
+  },
+  {
+    "location": "Mangalore",
+    "address": "Kadri, Mangalore",
+    "type": "Veg",
+    "table_capacity": 7,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "mangalore32@example.com",
+    "password": "MMeals#32k",
+    "hotel_name": "Kadri Cafe",
+    "image": "paper-masala.jpg"
+  },
+  {
+    "location": "Jammu",
+    "address": "Raghunath Bazar, Jammu",
+    "type": "Non Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "jammu33@example.com",
+    "password": "JJunction#33l",
+    "hotel_name": "Swadist Kitchen",
+    "image": "chicken-pasta.jpg"
+  },
+  {
+    "location": "Thiruvananthapuram",
+    "address": "Manacaud, Thiruvananthapuram",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "thiruvananthapuram34@example.com",
+    "password": "TTreats#34m",
+    "hotel_name": "New Diner's Paradise",
+    "image": "idli-mallige.jpg"
+  },
+  {
+    "location": "Bikaner",
+    "address": "Nai Sadak, Bikaner",
+    "type": "Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "bikaner35@example.com",
+    "password": "BBhujia#35n",
+    "hotel_name": "Shiv Sagar",
+    "image": "kulcha-bread.jpg"
+  },
+  {
+    "location": "Ajmer",
+    "address": "Dargah Road, Ajmer",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "ajmer36@example.com",
+    "password": "AAroma#36o",
+    "hotel_name": "Maharaja Restaurant",
+    "image": "kim-jong-un.jpg"
+  },
+  {
+    "location": "Visakhapatnam",
+    "address": "Dwaraka Nagar, Vishakhapatnam",
+    "type": "Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "vishakhapatnam37@example.com",
+    "password": "VVittles#37p",
+    "hotel_name": "Hotel Andhra Bhavan",
+    "image": "chicken-biryani.jpg"
+  },
+  {
+    "location": "Gangtok",
+    "address": "MG Marg, Gangtok",
+    "type": "Veg",
+    "table_capacity": 7,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "gangtok38@example.com",
+    "password": "GGrub#38q",
+    "hotel_name": "Eastern Delights",
+    "image": "spaghetti.jpg"
+  },
+  {
+    "location": "Shimoga",
+    "address": "Marimallappa Street, Shimoga",
+    "type": "Veg",
+    "table_capacity": 6,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "shimoga39@example.com",
+    "password": "SSnacks#39r",
+    "hotel_name": "Hotel Meenakshi Bhavan",
+    "image": "dosa-manchuri.jpg"
+  },
+  {
+    "location": "Udaipur",
+    "address": "Lake Pichola, Udaipur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "udaipur40@example.com",
+    "password": "UUtsav#40s",
+    "hotel_name": "Uday Retreet",
+    "image": "cake.jpg"
+  },
+  {
+    "location": "Bhopal",
+    "address": "New Market, Bhopal",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "bhopal41@example.com",
+    "password": "BBites#41t",
+    "hotel_name": "Badrinath Cafe",
+    "image": "desert-one.jpg"
+  },
+  {
+    "location": "Jabalpur",
+    "address": "Madam Cama Road, Jabalpur",
+    "type": "Non Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "jabalpur42@example.com",
+    "password": "JJunction#42u",
+    "hotel_name": "Hotel Yorkshire",
+    "image": "burger-combo.jpg"
+  },
+  {
+    "location": "Amritsar",
+    "address": "Golden Temple Road, Amritsar",
+    "type": "Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "amritsar43@example.com",
+    "password": "AAroma#43v",
+    "hotel_name": "The Golden Square",
+    "image": "dishes.jpg"
+  },
+  {
+    "location": "Coimbatore",
+    "address": "Race Course, Coimbatore",
+    "type": "Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "coimbatore44@example.com",
+    "password": "CCafe#44w",
+    "hotel_name": "Adiyogi Restaurant",
+    "image": "amabada.jpg"
+  },
+  {
+    "location": "Kochi",
+    "address": "Fort Kochi, Kochi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kochi45@example.com",
+    "password": "KKitchen#45x",
+    "hotel_name": "Hotel Tandoor Kitchen",
+    "image": "tikka-two.jpg"
+  },
+  {
+    "location": "Thrissur",
+    "address": "Goverment Victoria College Road, Thrissur",
+    "type": "Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "thrissur46@example.com",
+    "password": "TTreats#46y",
+    "hotel_name": "Udupi Cafe",
+    "image": "masala-dosa.jpg"
+  },
+  {
+    "location": "Jodhpur",
+    "address": "Clock Tower, Jodhpur",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "jodhpur47@example.com",
+    "password": "JJunction#47z",
+    "hotel_name": "Jodhpur Junction",
+    "image": "dontknow.jpg"
+  },
+  {
+    "location": "Shillong",
+    "address": "Police Bazaar, Shillong",
+    "type": "Veg",
+    "table_capacity": 6,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "shillong48@example.com",
+    "password": "SSnacks#48a",
+    "hotel_name": "Eastern Eligence",
+    "image": "italino-tuppa.jpg"
+  },
+  {
+    "location": "Tirupati",
+    "address": "Alipiri Road, Tirupati",
+    "type": "Veg",
+    "table_capacity": 7,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "tirupati49@example.com",
+    "password": "TTreats#49b",
+    "hotel_name": "Hotel Venkateshwara International",
+    "image": "veg-pizza.jpg"
+  },
+  {
+    "location": "Deoghar",
+    "address": "Basukinath Road, Deoghar",
+    "type": "Veg & Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "deoghar50@example.com",
+    "password": "DDiner#50c",
+    "hotel_name": "Hotel Deoghar Palace",
+    "image": "mutton_fry.jpg"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Marine Drive, Mumbai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "mumbai51@example.com",
+    "password": "MBmari#51vnv",
+    "hotel_name": "Coastal Breeze",
+    "image": "prawnsfry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10479"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Bandra Linking Road, Mumbai",
+    "type": "Pure Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai52@example.com",
+    "password": "MBband#52pure",
+    "hotel_name": "The Curry Leaf",
+    "image": "south_thali.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047A"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Colaba Causeway, Mumbai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "mumbai53@example.com",
+    "password": "MBcol#53mix",
+    "hotel_name": "Bombay Spoon",
+    "image": "sandwich.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047B"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Andheri West, Mumbai",
+    "type": "Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai54@example.com",
+    "password": "MBand#54nv",
+    "hotel_name": "Spice Craze",
+    "image": "mirchi_ka_salan.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047C"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Juhu Beach Road, Mumbai",
+    "type": "Pure Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "mumbai55@example.com",
+    "password": "MBjuhu#55veg",
+    "hotel_name": "Shuddh Rasoi",
+    "image": "naan.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047D"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Powai Lake View Road, Mumbai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 20,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai56@example.com",
+    "password": "MBpow#56rest",
+    "hotel_name": "Powai Platters",
+    "image": "fish_masala.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047E"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Goregaon Film City Road, Mumbai",
+    "type": "Non Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai57@example.com",
+    "password": "MBgore#57fc",
+    "hotel_name": "The Meat Station",
+    "image": "shawarma.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1047F"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Lower Parel High Street, Mumbai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": false
+    },
+    "email": "mumbai58@example.com",
+    "password": "MBlow#58mix",
+    "hotel_name": "Urban Curry House",
+    "image": "chettinad_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10480"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Sion Circle, Mumbai",
+    "type": "Pure Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai59@example.com",
+    "password": "MBsion#59veg",
+    "hotel_name": "Sattva Bhojan",
+    "image": "dal_makhani.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10481"
+  },
+  {
+    "location": "Mumbai",
+    "address": "Malad Link Road, Mumbai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "mumbai60@example.com",
+    "password": "MBmalad#60mix",
+    "hotel_name": "Food Fiesta",
+    "image": "aloo_tikki.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10482"
+  },
+  {
+    "location": "Delhi",
+    "address": "Connaught Place, Delhi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "delhi61@example.com",
+    "password": "DLcp#61mix",
+    "hotel_name": "Delhi Bites",
+    "image": "haleem.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10483"
+  },
+  {
+    "location": "Delhi",
+    "address": "Karol Bagh Market Road, Delhi",
+    "type": "Pure Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "delhi62@example.com",
+    "password": "DLkar#62pure",
+    "hotel_name": "Sattvik Treat",
+    "image": "buns.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10484"
+  },
+  {
+    "location": "Delhi",
+    "address": "South Extension II, Delhi",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi63@example.com",
+    "password": "DLse#63nv",
+    "hotel_name": "Mughlai Darbar",
+    "image": "hyderabadi_biryani.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10485"
+  },
+  {
+    "location": "Delhi",
+    "address": "Hauz Khas Village, Delhi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi64@example.com",
+    "password": "DLhauz#64mix",
+    "hotel_name": "Urban Thali",
+    "image": "butter_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10486"
+  },
+  {
+    "location": "Delhi",
+    "address": "Lajpat Nagar Central Market, Delhi",
+    "type": "Pure Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi65@example.com",
+    "password": "DLlaj#65veg",
+    "hotel_name": "Desi Rasoi",
+    "image": "rice_noodles.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10487"
+  },
+  {
+    "location": "Delhi",
+    "address": "Rajouri Garden, Delhi",
+    "type": "Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "delhi66@example.com",
+    "password": "DLraj#66nv",
+    "hotel_name": "Tandoori Nights",
+    "image": "mutton_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10488"
+  },
+  {
+    "location": "Delhi",
+    "address": "Saket Mall Road, Delhi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 20,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi67@example.com",
+    "password": "DLsak#67rest",
+    "hotel_name": "Capital Flavours",
+    "image": "egg_curry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10489"
+  },
+  {
+    "location": "Delhi",
+    "address": "Ashok Vihar Phase 1, Delhi",
+    "type": "Pure Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi68@example.com",
+    "password": "DLash#68pure",
+    "hotel_name": "The Chatori Gully",
+    "image": "pongal.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048A"
+  },
+  {
+    "location": "Delhi",
+    "address": "Rohini Sector 3, Delhi",
+    "type": "Veg & Non Veg",
+    "table_capacity": 17,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "delhi69@example.com",
+    "password": "DLroh#69mix",
+    "hotel_name": "Zaika Junction",
+    "image": "lamb.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048B"
+  },
+  {
+    "location": "Delhi",
+    "address": "Patel Nagar Main Road, Delhi",
+    "type": "Non Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "delhi70@example.com",
+    "password": "DLpat#70nv",
+    "hotel_name": "Masala Munch",
+    "image": "mutton_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048C"
+  },
+  {
+    "location": "Chennai",
+    "address": "T. Nagar, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "chennai71@example.com",
+    "password": "CHtn#71veg",
+    "hotel_name": "Madras Mess",
+    "image": "vada_sambar.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048D"
+  },
+  {
+    "location": "Chennai",
+    "address": "Velachery Main Road, Chennai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai72@example.com",
+    "password": "CHvel#72mix",
+    "hotel_name": "Southern Spice Hub",
+    "image": "fish_curry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048E"
+  },
+  {
+    "location": "Chennai",
+    "address": "Besant Nagar Beach Road, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "chennai73@example.com",
+    "password": "CHbes#73nv",
+    "hotel_name": "Bayview Biryani",
+    "image": "jeera_rice.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1048F"
+  },
+  {
+    "location": "Chennai",
+    "address": "Nungambakkam High Road, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai74@example.com",
+    "password": "CHnung#74rest",
+    "hotel_name": "Annapoorna Delights",
+    "image": "pongal.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10490"
+  },
+  {
+    "location": "Chennai",
+    "address": "Guindy Kathipara Junction, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai75@example.com",
+    "password": "CHguin#75veg",
+    "hotel_name": "Rasoi Anna",
+    "image": "kesari_bath.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10491"
+  },
+  {
+    "location": "Chennai",
+    "address": "OMR Navalur, Chennai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 17,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai76@example.com",
+    "password": "CHomr#76mix",
+    "hotel_name": "Filter Feast",
+    "image": "chettinad_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10492"
+  },
+  {
+    "location": "Chennai",
+    "address": "Egmore Museum Road, Chennai",
+    "type": "Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "chennai77@example.com",
+    "password": "CHegr#77nv",
+    "hotel_name": "Madura Meals",
+    "image": "crab_masala.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10493"
+  },
+  {
+    "location": "Chennai",
+    "address": "Perambur Market Street, Chennai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "chennai78@example.com",
+    "password": "CHper#78mix",
+    "hotel_name": "Marina Masala",
+    "image": "meals.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10494"
+  },
+  {
+    "location": "Chennai",
+    "address": "Tambaram Sanatorium, Chennai",
+    "type": "Pure Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai79@example.com",
+    "password": "CHtam#79pure",
+    "hotel_name": "Dakshin Delight",
+    "image": "dal_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10495"
+  },
+  {
+    "location": "Chennai",
+    "address": "Anna Nagar Tower Road, Chennai",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "chennai80@example.com",
+    "password": "CHanna#80rest",
+    "hotel_name": "Chennai Curry Spot",
+    "image": "curd_rice.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10496"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Charminar Road, Hyderabad",
+    "type": "Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "hyderabad81@example.com",
+    "password": "HYchar#81nv",
+    "hotel_name": "Biryani Mahal",
+    "image": "hyderabadi_biryani.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10497"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Gachibowli Flyover, Hyderabad",
+    "type": "Veg & Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "hyderabad82@example.com",
+    "password": "HYgachi#82mix",
+    "hotel_name": "Spice Valley",
+    "image": "tandoori_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10498"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Banjara Hills Road No. 1, Hyderabad",
+    "type": "Pure Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "hyderabad83@example.com",
+    "password": "HYbanj#83veg",
+    "hotel_name": "Green Bowl",
+    "image": "veg_pulao.jpg",
+    "__v": 0,
+    "id": "HOTEL-A10499"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Hitech City Main Road, Hyderabad",
+    "type": "Veg & Non Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "hyderabad84@example.com",
+    "password": "HYtech#84mix",
+    "hotel_name": "The Curry Code",
+    "image": "butter_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049A"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Abids Main Road, Hyderabad",
+    "type": "Pure Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "hyderabad85@example.com",
+    "password": "HYabi#85pure",
+    "hotel_name": "Sattva Bhojanam",
+    "image": "pappu_rice.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049B"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Kukatpally Metro Road, Hyderabad",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "hyderabad86@example.com",
+    "password": "HYkuk#86mix",
+    "hotel_name": "Food Republic",
+    "image": "fish_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049C"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Madhapur Durgam Cheruvu, Hyderabad",
+    "type": "Non Veg",
+    "table_capacity": 17,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "hyderabad87@example.com",
+    "password": "HYmad#87nv",
+    "hotel_name": "Charcoal Grill",
+    "image": "mutton_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049D"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Secunderabad Railway Road, Hyderabad",
+    "type": "Veg & Non Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "hyderabad88@example.com",
+    "password": "HYsec#88mix",
+    "hotel_name": "Nawabi Zaika",
+    "image": "haleem.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049E"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Mehdipatnam Main Road, Hyderabad",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "hyderabad89@example.com",
+    "password": "HYmeh#89nv",
+    "hotel_name": "Andhra Bhavan",
+    "image": "gongura_chicken.jpg",
+    "__v": 0,
+    "id": "HOTEL-A1049F"
+  },
+  {
+    "location": "Hyderabad",
+    "address": "Malakpet Market Road, Hyderabad",
+    "type": "Veg & Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "hyderabad90@example.com",
+    "password": "HYmal#90mix",
+    "hotel_name": "Royal Hyderabadi",
+    "image": "mirchi_ka_salan.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A0"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Park Street, Kolkata",
+    "type": "Veg & Non Veg",
+    "table_capacity": 13,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kolkata91@example.com",
+    "password": "KOpk#91mix",
+    "hotel_name": "Bong Zaika",
+    "image": "thai.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A1"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Salt Lake Sector V, Kolkata",
+    "type": "Pure Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kolkata92@example.com",
+    "password": "KOsl#92pure",
+    "hotel_name": "Shuddh Bhojanalay",
+    "image": "samosa.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A2"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Behala Diamond Harbour Road, Kolkata",
+    "type": "Non Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "kolkata93@example.com",
+    "password": "KObeh#93nv",
+    "hotel_name": "Kolkata Kababs",
+    "image": "chicken_kosha.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A3"
+  },
+  {
+    "location": "Kolkata",
+    "address": "New Alipore, Kolkata",
+    "type": "Veg & Non Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kolkata94@example.com",
+    "password": "KOali#94mix",
+    "hotel_name": "Mishti Ranna",
+    "image": "fish_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A4"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Shyambazar Main Road, Kolkata",
+    "type": "Pure Veg",
+    "table_capacity": 15,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "kolkata95@example.com",
+    "password": "KOshy#95veg",
+    "hotel_name": "The Green Kitchen",
+    "image": "kaju_masala.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A5"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Esplanade Metro Gate 2, Kolkata",
+    "type": "Pure Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kolkata96@example.com",
+    "password": "KOesp#96mix",
+    "hotel_name": "Panch Phoron",
+    "image": "palak_paneer.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A6"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Sealdah Station Road, Kolkata",
+    "type": "Pure Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "kolkata97@example.com",
+    "password": "KOsea#97nv",
+    "hotel_name": "Howrah Cafe",
+    "image": "pav_bhaji.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A7"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Dum Dum Airport Road, Kolkata",
+    "type": "Veg & Non Veg",
+    "table_capacity": 17,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "kolkata98@example.com",
+    "password": "KOdum#98mix",
+    "hotel_name": "Flight Feast",
+    "image": "egg_curry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A8"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Tollygunge Metro Station, Kolkata",
+    "type": "Pure Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "kolkata99@example.com",
+    "password": "KOtol#99pure",
+    "hotel_name": "Roti Rasoi",
+    "image": "thali_north.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104A9"
+  },
+  {
+    "location": "Kolkata",
+    "address": "Kalighat Temple Road, Kolkata",
+    "type": "Veg & Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "kolkata100@example.com",
+    "password": "KOkali#100mix",
+    "hotel_name": "Kalighat Bhojanalay",
+    "image": "fish_curry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AA"
+  },
+  {
+    "location": "Bangalore",
+    "address": "MG Road, Bangalore",
+    "type": "Pure Veg",
+    "table_capacity": 12,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "blore41@example.com",
+    "password": "BLmg#41ret",
+    "hotel_name": "The Green Fork",
+    "image": "dosa.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AB"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Indiranagar 100ft Road, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 18,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": false
+    },
+    "email": "blore42@example.com",
+    "password": "BLind#42veg",
+    "hotel_name": "Spice Yard",
+    "image": "biryani.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AC"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Koramangala 5th Block, Bangalore",
+    "type": "Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore43@example.com",
+    "password": "BLkor#43nv",
+    "hotel_name": "Red Chilli Flame",
+    "image": "chicken_tikka.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AD"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Whitefield Main Road, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 16,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore44@example.com",
+    "password": "BLwhite#44mix",
+    "hotel_name": "Olive Treat",
+    "image": "idli.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AE"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Rajajinagar Industrial Area, Bangalore",
+    "type": "Pure Veg",
+    "table_capacity": 8,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": false,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "blore45@example.com",
+    "password": "BLraj#45veg",
+    "hotel_name": "Sattvik Bhojanalaya",
+    "image": "poha.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104AF"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Electronic City Phase 1, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 20,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore46@example.com",
+    "password": "BLelec#46ft",
+    "hotel_name": "Tandoori Junction",
+    "image": "tandoori.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104B0"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Jayanagar 4th T Block, Bangalore",
+    "type": "Pure Veg",
+    "table_capacity": 14,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": false,
+      "2:00 PM": false,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore47@example.com",
+    "password": "BLjay#47pv",
+    "hotel_name": "Green Leaf Resto",
+    "image": "upma.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104B1"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Marathahalli Bridge, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 10,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": false,
+      "7:00 PM": false,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore48@example.com",
+    "password": "BLmar#48rest",
+    "hotel_name": "Urban Platter",
+    "image": "pulao.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104B2"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Banashankari 3rd Stage, Bangalore",
+    "type": "Non Veg",
+    "table_capacity": 9,
+    "availability": {
+      "12:00 PM": true,
+      "1:00 PM": true,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": false,
+      "9:00 PM": true
+    },
+    "email": "blore49@example.com",
+    "password": "BLbsk#49nv",
+    "hotel_name": "Meat & More",
+    "image": "mutton_curry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104B3"
+  },
+  {
+    "location": "Bangalore",
+    "address": "Hennur Main Road, Bangalore",
+    "type": "Veg & Non Veg",
+    "table_capacity": 11,
+    "availability": {
+      "12:00 PM": false,
+      "1:00 PM": false,
+      "2:00 PM": true,
+      "7:00 PM": true,
+      "8:00 PM": true,
+      "9:00 PM": true
+    },
+    "email": "blore50@example.com",
+    "password": "BLhen#50hm",
+    "hotel_name": "Coastal Crave",
+    "image": "fish_fry.jpg",
+    "__v": 0,
+    "id": "HOTEL-A104B4"
+  }
+]

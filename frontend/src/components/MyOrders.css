@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.woff2") format("woff2");
+}
+.customhead {
+  font-size: 3em;
+}
+th {
+  font-family: "CalSans-Regular", sans-serif;
+  color: blue;
+}

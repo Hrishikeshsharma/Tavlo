@@ -1,0 +1,93 @@
+.dummy-container {
+  padding: 40px;
+  font-family: "Georgia", serif;
+  color: #2e2e2e;
+  background: linear-gradient(to top right, #ffffffd4, #5d2e2e);
+  min-height: 100vh;
+}
+
+.dummy-container h1 {
+  font-size: 3rem;
+  color: #4b2e83;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d1b954;
+  padding-bottom: 10px;
+}
+
+.dummy-container h2 {
+  font-size: 2rem;
+  color: #6c3a8d;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.dummy-container h2::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #d1b954;
+  bottom: -6px;
+  left: 0;
+}
+
+.dummy-container p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.dummy-container ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.dummy-container li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.dummy-container strong {
+  color: #4b2e83;
+}
+
+.dummy-container em {
+  font-style: italic;
+  color: #cdbc39;
+}
+
+.dummy-container .footer-message {
+  margin-top: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4b2e83;
+  border-top: 2px solid #d1b954;
+  padding-top: 20px;
+  text-align: center;
+}
+.heading-with-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-family: "Georgia", serif;
+}
+
+.heading-text {
+  font-size: 2.5rem;
+  color: #4b2e83;
+}
+
+.brand {
+  color: #d1b954;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.tavlo-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+}

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "DMSerif";
+  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/DMSerifText-Regular.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Playfair-VariableFont_opsz,wdth,wght.ttf);
+}
+@font-face {
+  font-family: "work-sans";
+  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "inter";
+  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Inter-VariableFont_opsz,wght.ttf);
+}
+@font-face {
+  font-family: "sacramento";
+  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Sacramento-Regular.ttf);
+}
+.restobox {
+  width: 380px;
+  height: 450px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+  position: relative;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restobox:hover {
+  transform: scale(1.035);
+}
+
+.image {
+  width: 380px;
+  height: 250px;
+  border-radius: 20px;
+}
+.detailsbox {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.namebox {
+  display: flex;
+  margin-top: 10px;
+}
+.name {
+  font-family: Times !important;
+  font-size: 30px !important;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10px;
+}
+.restotype {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.ratingbox {
+  background-color: green;
+  width: 55px;
+  border-radius: 7px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+}
+.rating {
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+.addressbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.adres {
+  font-size: 1em;
+  font-family: monospace;
+  color: black;
+  text-align: start;
+  width: 100%;
+  text-indent: 5px;
+}
+.typebox {
+  display: flex;
+  background-color: red;
+}
+.type {
+  display: flex;
+  position: relative;
+}
