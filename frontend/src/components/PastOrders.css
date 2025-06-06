@@ -1,0 +1,66 @@
+.pastbox {
+  padding: 20px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.pastinbox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pastheadbox {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pasthead {
+  font-size: 2em;
+  color: #333;
+}
+
+.order-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderhash {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.orderlist {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.lisite {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.grandsum {
+  font-weight: bold;
+  display: flex;
+  color: #2d862d;
+}
+
+.placed {
+  font-size: 0.9em;
+  color: #888;
+  text-align: left;
+}
+
+.notfound {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}

@@ -3,25 +3,22 @@ import "./BrowseResto.css";
 import TopNav from "./TopNav";
 import RestaurantCard from "./RestaurantCard";
 import axios from "axios";
-import BookNow from "./BookNow";
 import { useAuth } from "../contexts/authContext";
 import PureVegSwitch from "./PureVegSwitch";
+import { useNavigate } from "react-router-dom";
 
 function BrowseResto() {
   const [searchLocation, setSearchLocation] = useState("");
   const [restaurants, setRestaurants] = useState([]);
   const [searchRestaurant, setSearchRestaurant] = useState("");
-  const [change, setChange] = useState(true);
-  const [selectedRestaurant, setSelectedRestaurant] = useState(null);
   const [isOn, setIsOn] = useState(false);
   const { user } = useAuth();
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios
       .get("http://localhost:8080/hotels")
-      .then((response) => {
-        setRestaurants(response.data);
-      })
+      .then((response) => setRestaurants(response.data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
@@ -35,26 +32,25 @@ function BrowseResto() {
     (r) => r.type === "Veg" || r.type === "Pure veg"
   );
 
-  const letsBook = (restaurants) => {
-    setSelectedRestaurant(restaurants);
-    setChange(false);
-  };
   const handleToggle = () => {
     setIsOn((prev) => !prev);
   };
 
-  const requiredRestaurants =
-    isOn === true ? vegRestaurants : filteredRestaurants;
+  const letsBook = (restaurant) => {
+    navigate("/book", { state: { restaurant } });
+  };
 
-  return change ? (
+  const requiredRestaurants = isOn ? vegRestaurants : filteredRestaurants;
+
+  return (
     <div className="backbody">
       <div className="Body">
         <TopNav
           one={"Home"}
           two={"Bookings"}
-          ol={"home"}
+          ol={"browse"}
           tl={"userbookings"}
-        ></TopNav>
+        />
         <p className="welcome">Welcome, {user.name}!</p>
         <div className="browbody">
           <div className="searchbox">
@@ -76,7 +72,6 @@ function BrowseResto() {
             />
           </div>
           <PureVegSwitch handleToggle={handleToggle} label={"Pure veg"} />
-          &nbsp;&nbsp;
         </div>
         <hr />
         <div className="horizontal-scroll">
@@ -92,11 +87,10 @@ function BrowseResto() {
             />
           ))}
         </div>
-        <hr></hr>
+        <hr />
       </div>
     </div>
-  ) : (
-    <BookNow restaurant={selectedRestaurant}></BookNow>
   );
 }
+
 export default BrowseResto;

@@ -3,7 +3,7 @@ import React from "react";
 import "./bookings.css";
 import { useNavigate } from "react-router-dom";
 
-function Bookings({ _id, restaurant, slot, customerName, forDate }) {
+function Bookings({ _id, restaurant, slot, customerName, forDate, bookId }) {
   const navigate = useNavigate();
 
   function toOpen() {
@@ -25,6 +25,10 @@ function Bookings({ _id, restaurant, slot, customerName, forDate }) {
   return (
     <div className="wall">
       <div className="bookingscard">
+        <p className="pra">
+          <span className="titledatauniq">Booking Id:</span>
+          <span className="value">#{bookId}</span>
+        </p>
         <span className="titledata">Restaurant name:</span>
         <span className="value">{restaurant}</span>&nbsp;&nbsp;&nbsp;&nbsp;
         <span className="titledata">Date:</span>

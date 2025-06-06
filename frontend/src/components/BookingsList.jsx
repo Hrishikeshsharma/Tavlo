@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import TopNav from "./TopNav";
 import "./BookingsList.css";
+import { useNavigate } from "react-router-dom";
 
 function BookingsList() {
   const { user } = useAuth();
@@ -23,32 +24,38 @@ function BookingsList() {
   }, []);
   console.log("User:", user);
 
+  const navigate = useNavigate();
+  const toBack = () => {
+    navigate("/browse");
+  };
+
   const filteredBookings = userBookings.filter((r) => {
     return r.email === user.email;
   });
   return (
-    <div>
-      <TopNav
-        two={"Restaurants"}
-        tl={"browse"}
-        one={"Home"}
-        ol={"home"}
-      ></TopNav>
-      <div className="body">
+    <div className="bookings-page">
+      <TopNav two={"Restaurants"} tl={"browse"} />
+
+      <div className="scrollable-content">
         <div className="h2box">
           <h2 className="h2para">Bookings</h2>
         </div>
-        {filteredBookings.map((booking, index) => (
-          <Bookings
-            _id={booking._id}
-            key={index}
-            restaurant={booking.restaurant}
-            slot={booking.slot}
-            customerName={booking.customerName}
-            forDate={booking.forDate}
-          ></Bookings>
-        ))}
+        <div className="itemonpage">
+          {filteredBookings.map((booking, index) => (
+            <Bookings
+              bookId={booking.bookId}
+              _id={booking._id}
+              key={index}
+              restaurant={booking.restaurant}
+              slot={booking.slot}
+              customerName={booking.customerName}
+              forDate={booking.forDate}
+            />
+          ))}
+        </div>
       </div>
+
+      <input type="button" value="Back" className="back-btn" onClick={toBack} />
     </div>
   );
 }

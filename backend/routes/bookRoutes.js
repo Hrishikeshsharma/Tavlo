@@ -4,7 +4,8 @@ const Restaurants = require("../models/Restaurant");
 const Book = require("../models/Book");
 
 router.post("/book", async (req, res) => {
-  const { resto, members, slot, customerName, email, forDate } = req.body;
+  const { bookId, resto, members, slot, customerName, email, forDate } =
+    req.body;
   console.log("Booking request body:", req.body);
 
   try {
@@ -21,6 +22,7 @@ router.post("/book", async (req, res) => {
 
       // Save booking
       const booking = new Book({
+        bookId,
         customerName,
         restaurant: resto,
         members,

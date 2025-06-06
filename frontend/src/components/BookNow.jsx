@@ -3,8 +3,12 @@ import { useState } from "react";
 import axios from "axios";
 import "./BookNow.css";
 import { useAuth } from "../contexts/authContext";
+import { useNavigate, useLocation } from "react-router-dom";
 
-function BookNow({ restaurant }) {
+function BookNow() {
+  const location = useLocation();
+  const restaurant = location.state?.restaurant;
+
   const [message, setMessage] = useState("");
   const [count, setCount] = useState(1);
   const [timeSlot, setTimeSlot] = useState("");
@@ -12,6 +16,7 @@ function BookNow({ restaurant }) {
   const [enable, setEnable] = useState(false);
   const { user } = useAuth();
   const [onDate, setOnDate] = useState();
+  const navigate = useNavigate();
 
   const handleCheck = async (e) => {
     e.preventDefault();
@@ -21,28 +26,27 @@ function BookNow({ restaurant }) {
         members: count,
         slot: timeSlot,
       });
-      console.log("Backend response:", response);
       setMessage(response.data.message);
-      if (response.data.message === "Table available. Book now!") {
-        setEnable(true);
-      }
-      if (response.data.members === "Table not available") {
-        setEnable(false);
-      }
+      setEnable(response.data.message === "Table available. Book now!");
     } catch (error) {
-      console.error("Error checking:", error.response?.data || error.message);
       setMessage(
         error.response?.data?.message || "Failed to check availability"
       );
+      setEnable(false);
     }
   };
 
   const handleBook = async (e) => {
-    console.log("User from context:", user);
-
     e.preventDefault();
+    const generateSixDigitId = () => {
+      return Math.floor(100000 + Math.random() * 900000);
+    };
+
+    const bookId = generateSixDigitId();
+
     try {
       const bookRespo = await axios.post("http://localhost:8080/booking/book", {
+        bookId,
         resto: restaurant.hotel_name,
         members: count,
         slot: timeSlot,
@@ -50,23 +54,27 @@ function BookNow({ restaurant }) {
         email: user.email,
         forDate: onDate,
       });
-      console.log("Booking response:", bookRespo);
       setMessage(bookRespo.data.message);
     } catch (error) {
-      console.error("Error booking:", error.response?.data || error.message);
       setMessage(error.response?.data?.message || "Failed to book.");
     }
   };
+
+  function toBack() {
+    navigate("/browse");
+  }
+
   const isCheckEnabled =
     name.trim() !== "" && count > 0 && onDate && timeSlot.trim() !== "";
+
+  if (!restaurant) {
+    return <div className="error">No restaurant selected.</div>;
+  }
+
   return (
     <div className="mainbox">
-      <TopNav
-        one="Restaurants"
-        ol="browse"
-        two="Bookings"
-        tl="userbookings"
-      ></TopNav>
+      <TopNav one="Home" ol="browse" two="Bookings" tl="userbookings" />
+      <input type="button" value="Back" onClick={toBack} className="back-btn" />
       <div className="maincontainer">
         <div className="headingbox">
           <span className="nameheading">{restaurant.hotel_name}</span>
@@ -79,56 +87,41 @@ function BookNow({ restaurant }) {
         <div>
           <p className="reserve">Book your table now..!</p>
           <form onSubmit={handleCheck} className="feild">
-            <label htmlFor="name" className="labels">
-              Your Name :
-            </label>
+            <label className="labels">Your Name :</label>
             <input
-              id="name"
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name"
               className="feildbox"
             />
-            <label htmlFor="guestNumber" className="labels">
-              No. of guests :
-            </label>
+            <label className="labels">No. of guests :</label>
             <input
-              id="guestNumber"
               type="number"
               className="feildbox"
               value={count}
               onChange={(e) => setCount(Number(e.target.value))}
-            ></input>
-
-            <label htmlFor="date" className="labels">
-              Choose Date :
-            </label>
-
+            />
+            <label className="labels">Choose Date :</label>
             <input
               type="date"
-              id="date"
               className="feildbox"
               value={onDate}
               onChange={(e) => setOnDate(e.target.value)}
-            ></input>
-
-            <label htmlFor="timelist" className="labels">
-              Time slot :
-            </label>
-            <br />
+            />
+            <label className="labels">Time slot :</label>
             <select
-              id="timelist"
               value={timeSlot}
               onChange={(e) => setTimeSlot(e.target.value)}
               className="data"
             >
-              <option value={"12:00 PM"}>12:00 PM</option>
-              <option value={"1:00 PM"}>1:00 PM</option>
-              <option value={"2:00 PM"}>2:00 PM</option>
-              <option value={"7:00 PM"}>7:00 PM</option>
-              <option value={"8:00 PM"}>8:00 PM</option>
-              <option value={"9:00 PM"}>9:00 PM</option>
+              <option value="">--Select Time--</option>
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="1:00 PM">1:00 PM</option>
+              <option value="2:00 PM">2:00 PM</option>
+              <option value="7:00 PM">7:00 PM</option>
+              <option value="8:00 PM">8:00 PM</option>
+              <option value="9:00 PM">9:00 PM</option>
             </select>
             <br />
             <br />
@@ -153,7 +146,7 @@ function BookNow({ restaurant }) {
                   : ""
               }
             >
-              {message || null}
+              {message}
             </p>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
+import "./PastOrders.css";
 
 function PastOrders() {
   const location = useLocation();
@@ -24,27 +25,34 @@ function PastOrders() {
   }, [bookingId]);
 
   return (
-    <div>
-      <h2>Past Orders</h2>
-      {orders.length === 0 ? (
-        <p>No orders found.</p>
-      ) : (
-        orders.map((order, index) => (
-          <div key={index} className="order-card">
-            <h4>Order #{order.orderNumber}</h4>
-            <ul>
-              {order.items.map((item, idx) => (
-                <li key={idx}>
-                  {item.name} × {item.quantity} = ₹{item.price * item.quantity}
-                </li>
-              ))}
-            </ul>
-            <p>Total: ₹{order.total}</p>
-            <p>Placed on: {new Date(order.createdAt).toLocaleString()}</p>
-            <hr />
-          </div>
-        ))
-      )}
+    <div className="pastbox">
+      <div className="pastinbox">
+        <div className="pastheadbox">
+          <h2 className="pasthead">Past Orders</h2>
+        </div>
+        {orders.length === 0 ? (
+          <p className="notfound">No orders found.</p>
+        ) : (
+          orders.map((order, index) => (
+            <div key={index} className="order-card">
+              <h4 className="orderhash">Order #{order.orderNumber}</h4>
+              <p className="placed">
+                Placed on: {new Date(order.createdAt).toLocaleString()}
+              </p>
+              <ol className="orderlist">
+                {order.items.map((item, idx) => (
+                  <li key={idx} className="lisite">
+                    {item.name} × {item.quantity} = ₹
+                    {item.price * item.quantity}
+                  </li>
+                ))}
+              </ol>
+              <p className="grandsum">Total: ₹{order.total}</p>
+              <hr />
+            </div>
+          ))
+        )}
+      </div>
     </div>
   );
 }

@@ -12,12 +12,12 @@ import { AuthProvider } from "./contexts/authContext";
 import BookingsList from "./components/BookingsList";
 import RestoDashboard from "./components/RestoDashboard";
 import Menu from "./components/Menu";
-import MyOrders from "./components/MyOrders";
 import PastOrders from "./components/PastOrders";
 import AddRestaurant from "./components/AddRestaurant";
 import ManageResto from "./components/ManageResto";
 import Tavlo from "./components/Tavlo";
 import { Navigate } from "react-router-dom";
+import BookNow from "./components/BookNow";
 
 function App() {
   return (
@@ -35,7 +35,6 @@ function App() {
             <Link to="/userbookings">user bookings</Link>
             <Link to="/restodashboard">RestoDashBoard</Link>
             <Link to="/menu">Menu</Link>
-            <Link to="/myOrders"></Link>
             <Link to="/pastorders">PastOrders</Link>
             <Link to="/addresto">addresto</Link>
             <Link to="/manageresto">Manage resto</Link>
@@ -72,7 +71,6 @@ function App() {
               element={<RestoDashboard></RestoDashboard>}
             ></Route>
             <Route path="/menu" element={<Menu></Menu>}></Route>
-            <Route path="/myOrders" element={<MyOrders></MyOrders>}></Route>
             <Route path="/pastorders" element={<PastOrders />} />
             <Route
               path="/addresto"
@@ -83,6 +81,7 @@ function App() {
               element={<ManageResto></ManageResto>}
             ></Route>
             <Route path="tavlo" element={<Tavlo></Tavlo>}></Route>
+            <Route path="/book" element={<BookNow />} />
           </Routes>
         </Router>
       </div>

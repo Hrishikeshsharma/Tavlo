@@ -1,3 +1,4 @@
+/* Sticky search bar */
 .searchbar-wrapper {
   position: sticky;
   top: 0;
@@ -18,7 +19,6 @@
   border-radius: 25px;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  z-index: 1000;
 }
 
 .searchbar:focus {
@@ -26,31 +26,52 @@
   box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
 }
 
+.search-container {
+  padding-bottom: 140px; /* Give space for fixed back button */
+}
+
 .results {
-  position: absolute;
-  top: 60px; /* adjust based on height of search bar */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+  margin: 20px auto;
+  width: 90%;
   max-width: 1000px;
-  max-height: 300px;
-  overflow-y: auto;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 998;
 }
+
 .title {
-  font-family: "CalSans-Regular";
+  font-family: "CalSans-Regular", sans-serif;
   color: rgb(255, 93, 24);
   font-size: 45px;
   padding-top: 50px;
-  margin-left: 1cm;
+  margin-left: 5cm;
 }
+
 .subtitle {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
   color: rgb(113, 113, 113);
-  margin-left: 1cm;
+  margin-left: 5cm;
+}
+
+.back-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 140px;
+  height: 50px;
+  background-color: rgb(118, 163, 252);
+  border: none;
+  border-radius: 20px;
+  font-family: "CalSans-Regular", sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: rgb(0, 100, 206);
+  color: white;
 }
