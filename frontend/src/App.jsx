@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
 import BrowseResto from "./components/BrowseResto";
-import "../src/components/TopNav.css";
+import TopNav from "./components/TopNav";
 import RestoLogin from "./components/RestoLogin";
 import QuickLinks from "./components/QuickLinks";
 import RestoSignup from "./components/RestoSignup";
