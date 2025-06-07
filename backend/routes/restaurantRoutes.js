@@ -13,8 +13,6 @@ router.get("/", async (req, res) => {
   }
 });
 
-module.exports = router;
-
 router.post("/", async (req, res) => {
   const { hotel_name, email, address, location, type } = req.body;
 
@@ -36,3 +34,5 @@ router.post("/", async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 });
+
+module.exports = router;
