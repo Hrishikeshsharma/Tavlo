@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./FoodCart.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../contexts/authContext";
 import { useLocation } from "react-router-dom";
 
 function FoodCart({ selectedItems, quantity }) {
