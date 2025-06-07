@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../contexts/authContext";
+import { useAuth } from "../contexts/AuthContext";
 import "./SignUp.css"; // Ensure this is the CSS file with updated styles
 
 function LoginFormat({ url, logintype, to, next }) {

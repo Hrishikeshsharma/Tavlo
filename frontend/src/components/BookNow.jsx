@@ -2,7 +2,7 @@ import TopNav from "./TopNav";
 import { useState } from "react";
 import axios from "axios";
 import "./BookNow.css";
-import { useAuth } from "../contexts/authContext";
+import { useAuth } from "../contexts/AuthContext";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function BookNow() {

@@ -3,7 +3,7 @@ import "./BrowseResto.css";
 import TopNav from "./TopNav";
 import RestaurantCard from "./RestaurantCard";
 import axios from "axios";
-import { useAuth } from "../contexts/authContext";
+import { useAuth } from "../contexts/AuthContext";
 import PureVegSwitch from "./PureVegSwitch";
 import { useNavigate } from "react-router-dom";
 
