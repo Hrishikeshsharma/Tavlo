@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Bookings from "./Bookings";
-import { useAuth } from "../contexts/authContext";
+import { useAuth } from "../contexts/AuthContext";
 import { useEffect } from "react";
 import axios from "axios";
 import TopNav from "./TopNav";
