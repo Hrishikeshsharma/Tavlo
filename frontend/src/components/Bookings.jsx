@@ -1,4 +1,4 @@
-import "./bookings.css";
+import "./Bookings.css";
 import React from "react";
 import "./bookings.css";
 import { useNavigate } from "react-router-dom";
