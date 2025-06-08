@@ -48,15 +48,18 @@ function BookNow() {
     const bookId = generateSixDigitId();
 
     try {
-      const bookRespo = await axios.post("http://localhost:8080/booking/book", {
-        bookId,
-        resto: restaurant.hotel_name,
-        members: count,
-        slot: timeSlot,
-        customerName: name,
-        email: user.email,
-        forDate: onDate,
-      });
+      const bookRespo = await axios.post(
+        "https://tavloserver.onrender.com/booking/book",
+        {
+          bookId,
+          resto: restaurant.hotel_name,
+          members: count,
+          slot: timeSlot,
+          customerName: name,
+          email: user.email,
+          forDate: onDate,
+        }
+      );
       setMessage(bookRespo.data.message);
     } catch (error) {
       setMessage(error.response?.data?.message || "Failed to book.");
