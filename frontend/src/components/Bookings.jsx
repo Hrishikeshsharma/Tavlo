@@ -1,6 +1,5 @@
 import "./Bookings.css";
 import React from "react";
-import "./bookings.css";
 import { useNavigate } from "react-router-dom";
 
 function Bookings({ _id, restaurant, slot, customerName, forDate, bookId }) {
