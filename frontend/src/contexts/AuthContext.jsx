@@ -12,13 +12,13 @@ export const AuthProvider = ({ children }) => {
     if (storedUser) {
       setUser(JSON.parse(storedUser));
     }
-  }, []); // run once on mount
+  }, []);
 
   useEffect(() => {
     if (user) {
       localStorage.setItem("authUser", JSON.stringify(user));
     } else {
-      localStorage.removeItem("authUser"); // clear storage on logout
+      localStorage.removeItem("authUser");
     }
   }, [user]);
 
@@ -28,4 +28,3 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 };
-export default AuthProvider;

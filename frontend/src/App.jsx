@@ -8,7 +8,7 @@ import TopNav from "./components/TopNav";
 import RestoLogin from "./components/RestoLogin";
 import QuickLinks from "./components/QuickLinks";
 import RestoSignup from "./components/RestoSignup";
-import AuthProvider from "./contexts/AuthContext";
+import { useAuth, AuthProvider } from "./contexts/AuthContext";
 import BookingsList from "./components/BookingsList";
 import RestoDashboard from "./components/RestoDashboard";
 import Menu from "./components/Menu";
