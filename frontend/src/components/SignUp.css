@@ -61,6 +61,7 @@
   max-width: 420px;
   border-radius: 20px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .backgroundsignlog {
