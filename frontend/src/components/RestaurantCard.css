@@ -1,22 +1,26 @@
 @font-face {
   font-family: "DMSerif";
-  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/DMSerifText-Regular.ttf);
+  src: url("/fonts/DMSerifText-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "play-fair";
-  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Playfair-VariableFont_opsz,wdth,wght.ttf);
+  src: url("/fonts/Playfair-VariableFont_opsz,wdth,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "work-sans";
-  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/WorkSans-VariableFont_wght.ttf);
+  src: url("/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "inter";
-  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Inter-VariableFont_opsz,wght.ttf);
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "sacramento";
-  src: url(/Users/hrishikesh.sharma/Projects-React/table-booking-app/frontend/src/fonts/Sacramento-Regular.ttf);
+  src: url("/fonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
 }
 .restobox {
   width: 380px;

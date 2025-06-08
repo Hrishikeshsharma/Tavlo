@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+
 .accicon {
   position: absolute;
   left: 50px;

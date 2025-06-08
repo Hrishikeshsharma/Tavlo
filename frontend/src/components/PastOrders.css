@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+
 .pastbox {
   padding: 20px;
   background-color: #f2f2f2;

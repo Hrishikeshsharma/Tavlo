@@ -1,4 +1,9 @@
 /* Sticky search bar */
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+
 .searchbar-wrapper {
   position: sticky;
   top: 0;

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+
 .perticular {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr;

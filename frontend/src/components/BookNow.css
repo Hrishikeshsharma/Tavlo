@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
 .mainbox {
   background: linear-gradient(to top, rgb(255, 255, 255), rgb(122, 122, 122));
   height: 100vh;

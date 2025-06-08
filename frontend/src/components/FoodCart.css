@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
 .foodcart {
   position: fixed;
   top: 0;

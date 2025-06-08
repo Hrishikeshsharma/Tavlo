@@ -1,11 +1,11 @@
 @font-face {
   font-family: "CalSans-Regular";
-  src: url("src/fonts/CalSans-Regular.ttf") format("truetype");
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Sacramento-Regular";
-  src: url("src/fonts/Sacramento-Regular.ttf") format("truetype");
+  src: url("/fonts/Sacramento-Regular.ttf") format("truetype");
 }
 html {
   max-height: 100vh !important;

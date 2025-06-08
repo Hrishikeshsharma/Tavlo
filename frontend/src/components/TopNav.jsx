@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Accounts from "./Accounts";
+import "./TopNav.css";
 
 function TopNav({ one, two, three, four, ol, tl, thl, fl }) {
   const [logOut, setLogOut] = useState(false);
-  const [brandName] = useState("𝕋𝕒𝕧𝕝𝕠"); 
+  const [brandName] = useState("𝕋𝕒𝕧𝕝𝕠");
 
   const handleLogOut = () => {
     setLogOut(!logOut);

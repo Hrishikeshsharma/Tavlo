@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
 .inputfields {
   width: 100%;
   max-width: 400px;

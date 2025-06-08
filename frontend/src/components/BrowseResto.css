@@ -1,6 +1,10 @@
 @font-face {
   font-family: Sacramento-Regular;
-  src: url(frontend/src/fonts/Sacramento-Regular.ttf);
+  src: url("/fonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
 }
 .backbody {
   height: 100vh;

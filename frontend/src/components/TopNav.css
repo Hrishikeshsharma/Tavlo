@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "CalSans-Regular";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
 .topnav {
   display: flex;
   justify-content: end; /* Pushes content to the right */
