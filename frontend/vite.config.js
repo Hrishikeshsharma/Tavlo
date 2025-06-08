@@ -8,5 +8,5 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
-  base: "./", // if relative paths are needed
+  base: "/", // if relative paths are needed
 });
