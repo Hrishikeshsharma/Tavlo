@@ -4,7 +4,7 @@ function RestoSignup() {
   return (
     <div>
       <SignupFormat
-        url={"http://localhost:8080/owner/signup"}
+        url={"https://tavloserver.onrender.com/owner/signup"}
         signuptype={"Restaurant SignUp"}
         to={"/restologin"}
       ></SignupFormat>

@@ -30,7 +30,7 @@ function FoodCart({ selectedItems, quantity }) {
     }));
 
     try {
-      await axios.post("http://localhost:8080/orders", {
+      await axios.post("https://tavloserver.onrender.com/orders", {
         bookingId,
         items,
         total: totalAmount,

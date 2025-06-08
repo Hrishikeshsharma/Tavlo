@@ -13,7 +13,7 @@ function PastOrders() {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8080/orders?bookingId=${bookingId}`
+          `https://tavloserver.onrender.com/orders?bookingId=${bookingId}`
         );
         setOrders(response.data);
       } catch (error) {

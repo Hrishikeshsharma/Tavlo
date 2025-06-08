@@ -12,13 +12,13 @@ const menuRoutes = require("./routes/menuRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 require("dotenv").config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://tavloapp.onrender.com",
     credentials: true,
   })
 );
@@ -51,5 +51,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });

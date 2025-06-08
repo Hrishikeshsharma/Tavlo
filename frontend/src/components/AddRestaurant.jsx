@@ -22,7 +22,7 @@ function AddRestaurant() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:8080/hotels", form);
+      await axios.post("http://https://tavloserver.onrender.com/hotels", form);
       alert("Restaurant added successfully!");
     } catch (error) {
       console.error("Error submitting form", error);

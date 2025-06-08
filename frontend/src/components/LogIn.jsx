@@ -5,7 +5,7 @@ function LogIn() {
   return (
     <div>
       <LoginFormat
-        url={"http://localhost:8080/autho/login"}
+        url={"https://tavloserver.onrender.com/autho/login"}
         logintype={"Log In"}
         to={"/signup"}
         next={"/browse"}

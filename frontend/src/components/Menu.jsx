@@ -18,7 +18,9 @@ function Menu() {
   useEffect(() => {
     const fetchItem = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/menu");
+        const response = await axios.get(
+          "https://tavloserver.onrender.com/menu"
+        );
         setMenu(response.data[0]);
       } catch (error) {
         console.error("Error fetching menu", error);

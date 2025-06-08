@@ -21,11 +21,14 @@ function BookNow() {
   const handleCheck = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8080/booking/check", {
-        resto: restaurant.hotel_name,
-        members: count,
-        slot: timeSlot,
-      });
+      const response = await axios.post(
+        "https://tavloserver.onrender.com/booking/check",
+        {
+          resto: restaurant.hotel_name,
+          members: count,
+          slot: timeSlot,
+        }
+      );
       setMessage(response.data.message);
       setEnable(response.data.message === "Table available. Book now!");
     } catch (error) {

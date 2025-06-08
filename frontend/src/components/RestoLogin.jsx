@@ -5,7 +5,7 @@ function RestoLogin() {
   return (
     <div>
       <LoginFormat
-        url={"http://localhost:8080/owner/login"}
+        url={"https://tavloserver.onrender.com/owner/login"}
         logintype={"Resturant Log In"}
         to={"restosignup"}
         next={"/restodashboard"}

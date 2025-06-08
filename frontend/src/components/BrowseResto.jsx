@@ -17,7 +17,7 @@ function BrowseResto() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/hotels")
+      .get("https://tavloserver.onrender.com/hotels")
       .then((response) => setRestaurants(response.data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
