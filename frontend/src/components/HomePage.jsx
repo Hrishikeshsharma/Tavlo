@@ -34,11 +34,6 @@ function HomePage() {
             thl={"quicklinks"}
           ></TopNav>
           <br />
-          <img
-            src="/imagesforapp/tavlo.jpg"
-            alt="tavlo image"
-            className="tavlo"
-          ></img>
           <h1 className="backhead">
             Book table at your
             <div>
