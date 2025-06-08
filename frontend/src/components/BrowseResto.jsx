@@ -6,7 +6,6 @@ import axios from "../axiosInstance";
 import { useAuth } from "../contexts/AuthContext";
 import PureVegSwitch from "./PureVegSwitch";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 function BrowseResto() {
   const [searchLocation, setSearchLocation] = useState("");

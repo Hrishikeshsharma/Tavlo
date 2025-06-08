@@ -7,7 +7,6 @@ import axios from "../axiosInstance";
 import TopNav from "./TopNav";
 import "./BookingsList.css";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 function BookingsList() {
   const { user } = useAuth();

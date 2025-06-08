@@ -4,7 +4,6 @@ import axios from "../axiosInstance";
 import "./BookNow.css";
 import { useAuth, AuthProvider } from "../contexts/AuthContext";
 import { useNavigate, useLocation } from "react-router-dom";
-import axios from "axios";
 
 function BookNow() {
   const location = useLocation();

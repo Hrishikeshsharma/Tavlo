@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import axios from "../axiosInstance";
 import { useAuth } from "../contexts/AuthContext";
 import { useLocation } from "react-router-dom";
-import axios from "axios";
 
 function FoodCart({ selectedItems, quantity }) {
   const location = useLocation();
