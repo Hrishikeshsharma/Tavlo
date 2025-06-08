@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./BrowseResto.css";
 import TopNav from "./TopNav";
 import RestaurantCard from "./RestaurantCard";
-import axios from "axios";
+import axios from "../axiosInstance";
 import { useAuth } from "../contexts/AuthContext";
 import PureVegSwitch from "./PureVegSwitch";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function BrowseResto() {
   const [searchLocation, setSearchLocation] = useState("");

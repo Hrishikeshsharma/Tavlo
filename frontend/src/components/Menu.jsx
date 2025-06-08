@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Item from "./Item";
-import axios from "axios";
+import axios from "../axiosInstance";
 import FoodCart from "./FoodCart";
 import { useNavigate } from "react-router-dom";
 import "./Menu.css";
+import axios from "axios";
 
 function Menu() {
   const [menu, setMenu] = useState({});

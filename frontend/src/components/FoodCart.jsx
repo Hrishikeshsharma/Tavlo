@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./FoodCart.css";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../axiosInstance";
 import { useAuth } from "../contexts/AuthContext";
 import { useLocation } from "react-router-dom";
+import axios from "axios";
 
 function FoodCart({ selectedItems, quantity }) {
   const location = useLocation();

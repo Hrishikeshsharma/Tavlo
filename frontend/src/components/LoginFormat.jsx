@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import axios from "axios";
+import axios from "../axiosInstance";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import "./SignUp.css"; // Ensure this is the CSS file with updated styles
+import axios from "axios";
 
 function LoginFormat({ url, logintype, to, next }) {
   const [form, setForm] = useState({ email: "", password: "" });

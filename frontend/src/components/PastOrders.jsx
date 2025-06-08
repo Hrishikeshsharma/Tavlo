@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../axiosInstance";
 import { useLocation } from "react-router-dom";
 import "./PastOrders.css";
+import axios from "axios";
 
 function PastOrders() {
   const location = useLocation();

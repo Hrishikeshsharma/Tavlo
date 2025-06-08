@@ -3,10 +3,11 @@ import { useState } from "react";
 import Bookings from "./Bookings";
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect } from "react";
-import axios from "axios";
+import axios from "../axiosInstance";
 import TopNav from "./TopNav";
 import "./BookingsList.css";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function BookingsList() {
   const { user } = useAuth();
