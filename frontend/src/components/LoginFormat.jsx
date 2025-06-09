@@ -21,7 +21,7 @@ function LoginFormat({ url, logintype, to, next }) {
       console.log(res.data.user);
       setUser(res.data.user);
       if (res.status === 200) {
-        navigate(next, { replace: true });
+        navigate(next);
       }
       setMessage(res.data.message);
       setForm({ email: "", password: "" });
