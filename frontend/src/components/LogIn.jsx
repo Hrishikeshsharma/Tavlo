@@ -1,6 +1,7 @@
-import React from "react";
-import LoginFormat from "./LoginFormat";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import LoginFormat from "./LoginFormat";
+import { useAuth } from "../contexts/AuthContext";
 
 function LogIn() {
   const { user } = useAuth();
@@ -11,6 +12,7 @@ function LogIn() {
       navigate("/browse", { replace: true });
     }
   }, [user, navigate]);
+
   return (
     <div>
       <LoginFormat
@@ -18,7 +20,7 @@ function LogIn() {
         logintype={"Log In"}
         to={"/signup"}
         next={"/browse"}
-      ></LoginFormat>
+      />
     </div>
   );
 }
