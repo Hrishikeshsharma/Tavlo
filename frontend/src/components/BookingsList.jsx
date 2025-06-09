@@ -13,7 +13,7 @@ function BookingsList() {
   const [userBookings, setUserBookings] = useState([]);
   useEffect(() => {
     axios
-      .get("http://https://tavloserver.onrender.com/booking/book")
+      .get("https://tavloserver.onrender.com/booking/book")
       .then((response) => {
         setUserBookings(response.data);
         console.log(response.data);

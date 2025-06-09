@@ -5,7 +5,7 @@ function SignUp() {
   return (
     <div>
       <SignupFormat
-        url={"http://tavlo.onrender.com/autho/signup"}
+        url={"http://tavloserver.onrender.com/autho/signup"}
         signuptype={"Sign Up"}
         to={"/login"}
       ></SignupFormat>
