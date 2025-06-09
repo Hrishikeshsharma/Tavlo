@@ -18,13 +18,23 @@ function LoginFormat({ url, logintype, to, next }) {
     e.preventDefault();
     try {
       const res = await axios.post(url, form);
-      console.log(res.data.user);
-      setUser(res.data.user);
-      if (res.status === 200) {
-        navigate(next);
-      }
-      setMessage(res.data.message);
-      setForm({ email: "", password: "" });
+      localStorage.setItem("authUser", JSON.stringify(res.data.user));
+
+      // 👇 Replace the full browser history with /browse
+      window.history.pushState(null, "", "/browse");
+      navigate("/browse", { replace: true });
+
+      // 👇 Optional: Block back navigation completely
+      window.onpopstate = () => {
+        navigate("/browse", { replace: true });
+        console.log(res.data.user);
+        setUser(res.data.user);
+        if (res.status === 200) {
+          navigate(next);
+        }
+        setMessage(res.data.message);
+        setForm({ email: "", password: "" });
+      };
     } catch (err) {
       setMessage(err.response?.data?.message || "Login failed");
     }
