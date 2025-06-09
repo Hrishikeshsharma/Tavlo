@@ -114,7 +114,7 @@ function SignupFormat({ url, signuptype, to }) {
         )}
 
         <p className="already">
-          Already registered? <Link to={"/login"}></Link>
+          Already registered? <Link to={"/login"}>Login</Link>
         </p>
 
         <button type="submit" className="button" disabled={isDisabled}>

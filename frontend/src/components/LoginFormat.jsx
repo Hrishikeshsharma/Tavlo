@@ -72,7 +72,7 @@ function LoginFormat({ url, logintype, to, next }) {
         />
 
         <p className="already">
-          Don&apos;t have an account? <Link to={"/signup"}></Link>
+          Don&apos;t have an account? <Link to={"/signup"}>Sign up</Link>
         </p>
 
         <button type="submit" className="button">

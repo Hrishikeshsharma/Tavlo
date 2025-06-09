@@ -22,34 +22,32 @@ import PastOrders from "./components/PastOrders";
 import AddRestaurant from "./components/AddRestaurant";
 import ManageResto from "./components/ManageResto";
 import Tavlo from "./components/Tavlo";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import BookNow from "./components/BookNow";
 
 function App() {
   return (
     <AuthProvider>
-      <div>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Navigate to={"/home"} />} />
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/login" element={<LogIn />} />
-            <Route path="/browse" element={<BrowseResto />} />
-            <Route path="/restologin" element={<RestoLogin />} />
-            <Route path="/quicklinks" element={<QuickLinks />} />
-            <Route path="/restosignup" element={<RestoSignup />} />
-            <Route path="/userbookings" element={<BookingsList />} />
-            <Route path="/restodashboard" element={<RestoDashboard />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/pastorders" element={<PastOrders />} />
-            <Route path="/addresto" element={<AddRestaurant />} />
-            <Route path="/manageresto" element={<ManageResto />} />
-            <Route path="/tavlo" element={<Tavlo />} />
-            <Route path="/book" element={<BookNow />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navigate to={"/home"} />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<LogIn />} />
+          <Route path="/browse" element={<BrowseResto />} />
+          <Route path="/restologin" element={<RestoLogin />} />
+          <Route path="/quicklinks" element={<QuickLinks />} />
+          <Route path="/restosignup" element={<RestoSignup />} />
+          <Route path="/userbookings" element={<BookingsList />} />
+          <Route path="/restodashboard" element={<RestoDashboard />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/pastorders" element={<PastOrders />} />
+          <Route path="/addresto" element={<AddRestaurant />} />
+          <Route path="/manageresto" element={<ManageResto />} />
+          <Route path="/tavlo" element={<Tavlo />} />
+          <Route path="/book" element={<BookNow />} />
+        </Routes>
+      </BrowserRouter>
     </AuthProvider>
   );
 }
