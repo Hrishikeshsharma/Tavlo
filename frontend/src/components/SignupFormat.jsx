@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "../axiosInstance";
 import "./SignUp.css";
+import { Link } from "react-router-dom";
 
 function SignupFormat({ url, signuptype, to }) {
   const [form, setForm] = useState({
@@ -113,7 +114,7 @@ function SignupFormat({ url, signuptype, to }) {
         )}
 
         <p className="already">
-          Already registered? <a href={`${to}`}>Log in</a>
+          Already registered? <Link to={"/login"}></Link>
         </p>
 
         <button type="submit" className="button" disabled={isDisabled}>

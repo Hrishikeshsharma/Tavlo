@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "../axiosInstance";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import "./SignUp.css";
 
@@ -72,7 +72,7 @@ function LoginFormat({ url, logintype, to, next }) {
         />
 
         <p className="already">
-          Don&apos;t have an account? <a href={`${to}`}>Register now</a>
+          Don&apos;t have an account? <Link to={"/signup"}></Link>
         </p>
 
         <button type="submit" className="button">
