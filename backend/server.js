@@ -18,7 +18,7 @@ require("dotenv").config();
 
 app.use(
   cors({
-    origin: "https://tavloapp.onrender.com",
+    origin: "https://tavlo.onrender.com",
     credentials: true,
   })
 );
