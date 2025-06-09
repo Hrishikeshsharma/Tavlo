@@ -12,6 +12,8 @@ const menuRoutes = require("./routes/menuRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 
 const app = express();
+
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
 const PORT = process.env.PORT || 8080;
 
 require("dotenv").config();
