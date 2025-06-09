@@ -1,61 +1,46 @@
 import React from "react";
 import "./HomePage.css";
-import { useState } from "react";
-import LogIn from "./LogIn";
-import SignUp from "./SignUp";
 import TopNav from "./TopNav";
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
-  const [showSignUp, setShowSignUp] = useState(false);
-  const [showLogIn, setShowLogIn] = useState(false);
-
-  function handChange() {
-    setShowSignUp(true);
-  }
-
-  function handchangetwo() {
-    setShowLogIn(true);
-  }
+  const navigate = useNavigate();
 
   return (
     <div className="background">
-      {showSignUp ? (
-        <SignUp></SignUp>
-      ) : showLogIn ? (
-        <LogIn></LogIn>
-      ) : (
-        <div>
-          <TopNav
-            one={"Log in"}
-            two={"Sign up"}
-            three={"Quick links"}
-            ol={"login"}
-            tl={"signup"}
-            thl={"quicklinks"}
-          ></TopNav>
-          <br />
-          <img
-            src="/imagesforapp/tavlo.jpg"
-            alt="tavlo image"
-            className="tavlo"
-          ></img>
-          <h1 className="backhead">
-            Book table at your
-            <div>
-              <span className="favor">Favorite</span>&nbsp; Restaurant
-            </div>
-          </h1>
-          <div className="logsign">
-            <span onClick={handChange} className="signlog">
-              SignUp
-            </span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span onClick={handchangetwo} className="signlog">
-              LogIn
-            </span>
+      <div>
+        <TopNav
+          one={"Log in"}
+          two={"Sign up"}
+          three={"Quick links"}
+          ol={"login"}
+          tl={"signup"}
+          thl={"quicklinks"}
+        />
+        <br />
+        <img
+          src="/imagesforapp/tavlo.jpg"
+          alt="tavlo image"
+          className="tavlo"
+        />
+        <h1 className="backhead">
+          Book table at your
+          <div>
+            <span className="favor">Favorite</span>&nbsp; Restaurant
           </div>
+        </h1>
+
+        <div className="logsign">
+          <button className="signlog" onClick={() => navigate("/signup")}>
+            Sign Up
+          </button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button className="signlog" onClick={() => navigate("/login")}>
+            Log In
+          </button>
         </div>
-      )}
+      </div>
+
       <div className="rightsbox">
         <p className="rights">
           By continuing past this page, you agree to our Terms of Service,
