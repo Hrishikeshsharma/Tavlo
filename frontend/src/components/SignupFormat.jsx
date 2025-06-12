@@ -108,7 +108,7 @@ function SignupFormat({ url, signuptype, to }) {
         />
 
         {pasmes && (
-          <p style={{ color: pasmes.includes("match") ? "green" : "red" }}>
+          <p style={{ color: pasmes.includes("do not") ? "red" : "green" }}>
             {pasmes}
           </p>
         )}
